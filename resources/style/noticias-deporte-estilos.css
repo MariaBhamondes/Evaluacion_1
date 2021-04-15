@@ -178,6 +178,19 @@ h1{
     font-size: 25px;
 }
 
+.enlace{
+    color: #D76464;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.enlaces:hover{
+    color: #9e3a3a;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
 .bg{
     border: 2px;
     border-style: solid;
