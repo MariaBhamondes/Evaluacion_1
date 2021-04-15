@@ -98,6 +98,11 @@
     color:white;
 }
 
+.btn-registrarse:hover{
+    color: white;
+    background-color: #113442;
+}
+
 .contenedor{
     margin-top: 30px;
     border: 1px;

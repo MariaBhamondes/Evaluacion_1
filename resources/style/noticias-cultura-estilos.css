@@ -178,6 +178,17 @@ h1{
     font-size: 25px;
 }
 
+.enlace{
+    color:  #D8764C;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.enlaces:hover{
+    color:  #6d331b;
+}
+
 .bg{
     border: 2px;
     border-style: solid;
@@ -193,11 +204,15 @@ h1{
 .btn-leer-mas{
     background-color: #D8764C;
     border-radius: 20px;
-    color: white;
     font-weight: bold;
     font-size: 20px;
     padding-left: 30px;
     padding-right: 30px;
     margin-bottom: 10%;
     margin-right: 5%;
+}
+
+.btn-leer-mas:hover{
+    color: white;
+    color:  #6d331b;
 }

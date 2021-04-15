@@ -195,3 +195,17 @@ h1{
     width: 20px;
     margin-left: 2%;
 }
+
+.link{
+    font-size: 15px;
+    color: #234A59;
+    font-style: italic;
+    padding-bottom: 40px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 2%;
+}
+
+.link:hover{
+    color: #2e7b99;
+}
