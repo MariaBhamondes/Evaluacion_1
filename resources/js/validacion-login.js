@@ -1,6 +1,6 @@
 $(document).ready(function(){
     
-    //Capturar click en botón ingresar del form
+    //Captura click del botón
     var boton = $("#validar-datos");
     boton.click(function(){
 
