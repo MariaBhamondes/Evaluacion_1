@@ -1,0 +1,314 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    border-color: #F2F2F2;
+}
+
+.barra-superior{
+    padding: 20px;
+    width: auto;
+    background-color: #0F0F0F;
+}
+
+.barra-superior li{
+    margin-right: 50px;
+}
+
+.active{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.inactivo{
+    color: #A69D9D;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.actualizacion{
+    background-color: #5D6062;
+    height: 30%;
+    width: auto;
+    color: white;
+    padding: 20px;
+    padding-left: 60px;
+    font-size: 15px;
+}
+
+
+.cargo{
+    background-color: #5E6163; 
+    color: white; 
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+}
+
+.img-cargo{
+    margin-top: 10%;
+    width: 150px;
+    border-radius: 20px;
+    background-color: #5E6163; 
+}
+
+.card{
+    margin-top: 20%;
+    border-color: #5E6163; 
+}
+
+.card-body{
+    padding: 0%;
+    text-align: center;
+    background-color: #CACBCC;
+}
+
+.card-text{
+    font-size: 15px;
+    color: #756864;
+    font-style: italic;
+    margin-top: 40px;
+    padding-bottom: 80px;
+}
+
+.btn-cerrar-sesion{
+    background-color: #E22167;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.btn-inicio{
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #5D6062;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+
+.btn-cancelar{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    background-color: #686262;
+    border-radius: 20px;
+    color: white;
+}
+
+.btn-registrar{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    background-color: #449DBD;
+    border-radius: 20px;
+    color: white;
+}
+
+.btn-anterior{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    background-color: #449DBD;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+}
+
+.btn-rechazar{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    background-color: #E22167;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+}
+
+.btn-aceptar{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    background-color: #686262;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+}
+
+.btn-aceptar-modal{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    background-color: #686262;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+}
+
+.btn-cancelar-modal{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    background-color: #E22167;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+}
+
+.btn-inicio:hover,
+.btn-cancelar:hover,
+.btn-aceptar:hover,
+.btn-aceptar-modal:hover{
+    background-color: #424242;
+    color: white;
+}
+
+.btn-cerrar-sesion:hover,
+.btn-rechazar:hover,
+.btn-cancelar-modal:hover{
+    background-color: #8d1b45;
+    color: #FFFFFF;
+}
+
+.btn-registrar:hover,
+.btn-anterior:hover{
+    color: white;
+    background-color: #2b657a;
+}
+
+.contenedor{
+    margin-top: 30px;
+    border: 1px;
+    border-style: solid;
+    border-color: #787B7C;
+    margin-left: 30px;
+    margin-right: 60px;
+    border-radius: 20px;
+    padding: 5%;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+    border-color: #787B7C;
+}
+
+.comentario-rechazo{
+    width: 100%;
+}
+
+select{
+    background-color: #988C8C;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.footer{
+    margin-top: 5%;
+    background-color: #449DBD;
+    padding: 3%;
+
+}
+
+.foot{
+    margin-left: 50px;
+    color: white;
+    font-size: 15px;
+}
+
+table{
+    text-align: center;
+}
+
+table thead{
+    font-size: 20px;
+    background-color: #5E6163;
+    color: white;
+}
+
+table tbody{
+    font-size: 15px;
+    color: black;
+    background-color: #CACBCB;
+    border-color:#5E6163;
+}
+
+table .categoria{
+    font-weight: bold;
+}
+
+.destacado{
+    width: 45px;
+    border-radius: 100%;
+}
+
+.instruc{
+    color: #7b7e80;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.titulo-noticia{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.division-salud{
+    background-color: #66CEDE;
+    border: 2px;
+    border-color: #66CEDE;
+    border-style: solid;
+}
+
+.div-salud{
+    border: 2px;
+    border-color: #66CEDE;
+    border-style: solid;
+    padding: 2%;
+}
+
+.division-cultura{
+    background-color: #D8764C;
+    border: 2px;
+    border-color: #D8764C;
+    border-style: solid;
+}
+
+.div-cultura{
+    border: 2px;
+    border-color: #D8764C;
+    border-style: solid;
+    padding: 2%;
+}
+
+
+.img-noticia{
+    width: 100%;
+}
+
+.info-noticia{
+    font-size: 15px;
+    color: black;
+    font-style: italic;
+    margin: 20px;
+}

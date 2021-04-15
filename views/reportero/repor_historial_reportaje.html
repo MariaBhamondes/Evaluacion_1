@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reportero-Historial Reportajes</title>
+
+    <!--Importar bootstrap-->
+    <link rel="stylesheet" href="../../resources/bootstrap-5.0.0/css/bootstrap.min.css">
+    <script src="../../resources/bootstrap-5.0.0/js/bootstrap.min.js"></script>
+
+    <!--Importar hoja de estilos propia-->
+    <link rel="stylesheet" href="../../resources/style/repor-estilos.css">
+
+</head>
+<body>
+    <header>
+        <!-- Barra navegadora/ menu-->
+        <nav class="navbar navbar-expand-md navbar-dark barra-superior ">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon amburguesa"></span>
+                </button>
+                <!--Logo-->
+                <a class="navbar-brand" href="#">
+                    <img src="../../resources/img/logo.png" alt="Logo Caos News" class="logo">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <!--Herramientas disponibles reportero-->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!--Nuevo Reportajes-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" aria-current="page" href="#">Nuevo Reportaje</a>
+                        </li>
+                        <!--Historial Reportajes-->
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Historial Reportajes</a>
+                        </li>
+                        <!--Cerrar Sesión-->
+                        <li class="nav-item">
+                            <a class="btn btn-cerrar-sesion" href="#" tabindex="-1" aria-disabled="true">Cerrar Sesión</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Barra informacíon-->
+    <div>
+        <!--Datos actualización página-->
+        <p class="actualizacion">Viernes, 16 de Abril de 2021 | Actualizado a las 12:00 </p>
+    </div>
+    <!--Cuerpo pagina-->
+    <div class="row">
+        <!--Información del usuario-->
+        <div class="col-12 col-md-3 mt-5">
+            <div class="card ms-5 me-5 ">
+                <!--Cargo-->
+                <div class="card-body">
+                    <p class="cargo p-4">
+                        CULTURA
+                    </p>
+                    <!--Fotografía-->
+                    <img src="../../resources/img/personas/REPORTERO-BLANCA_FERNANDEZ-CULTURA.jpg" class="card-img-top img-cargo border" alt="...">
+                    <!--Nombre-->
+                    <p class="card-text">Blanca Fernández <br> <br>
+                        Total Publicaciones: 3</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-12 col-md-9 mt-5">
+            <!--Contenedor-->
+            <div class="contenedor table-responsive">
+                <div class="row">
+                    <div class="col-12 col-md-1"></div>
+                    <div class="col-12 col-md-10">
+                        <!--Título-->
+                        <h1>HISTORIAL DE REPORTAJES</h1> 
+                        <hr class="hr-cultura">
+                        <!--Intrucciones-->
+                        <p>
+                            <br><b>ENVIADO</b>: La noticia fue enviada al administrados para su revisión
+                            <br><b>ACEPTADO</b>: La noticia fue aprobada por el administrador y publicada.
+                            <br><b>RECHAZADO</b>: La noticia fue rechazada por el administrador y NO publicada.
+                        </p>
+                        <div class="row">
+                            <div class="col-12 col-md-3"> 
+                                <img src="../../resources/img/logotipos/read.png" class="instruc">
+                                Leer noticia
+                            </div>
+                            <div class="col-12 col-md-3"> 
+                                <img src="../../resources/img/logotipos/send.png" class="instruc">
+                                Enviar noticia
+                            </div>
+                            <div class="col-12 col-md-3"> 
+                                <img src="../../resources/img/logotipos/delete.png" class="instruc">
+                                Eliminar noticia
+                            </div>
+                            <div class="col-12 col-md-3"> 
+                                <img src="../../resources/img/logotipos/edit.png" class="instruc">
+                                Editar noticia
+                            </div>
+                        </div>
+                        <!--Tabla descriptiva-->
+                        <table class="table table-bordered text-center" >
+                            <thead>
+                                <tr>
+                                    <th class="titulo-table">Título Reportaje</th>
+                                    <th >Estado</th>
+                                    <th >Fecha Estado</th>
+                                    <th >Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!--Noticia 1-->
+                                <tr class="bg-white">
+                                    <td>
+                                        Autor de libro sobre Allende
+                                        y nueva Constitución: "el
+                                        proceso de
+                                        transformaciones debe tener
+                                        una política militar
+                                    </td>
+                                    <td class="categoria ">
+                                        ENVIADO
+                                    </td>
+                                    <td>
+                                        15 de Abril 2021
+                                    </td>
+                                    <td>
+                                        <img src="../../resources/img/logotipos/read.png">
+                                    </td>
+                                </tr>
+                                <!--Noticia 2-->
+                                <tr>
+                                    <td>
+                                        El Festival de Ciencia Puerto
+                                        de Ideas Antofagasta 2021
+                                        comienza este lunes su
+                                        programación para
+                                        estudiantes
+                                    </td>
+                                    <td class="categoria">
+                                        ACEPTADO
+                                    </td>
+                                    <td>
+                                        11 de Abril 2021
+                                    </td>
+                                    <td>
+                                        <img src="../../resources/img/logotipos/read.png">
+                                    </td>
+                                </tr>
+                                <!--Noticia 3-->
+                                <tr class="bg-white">
+                                    <td>
+                                        Cultura y Constitución: una
+                                        revisión del presente y
+                                        propuestas de futuro
+                                    </td>
+                                    <td class="categoria">
+                                        ACEPTADO
+                                    </td>
+                                    <td>
+                                        30 de Marzo 2021
+                                    </td>
+                                    <td>
+                                        <img src="../../resources/img/logotipos/read.png">
+                                    </td>
+                                </tr>
+                                <!--Noticia 4-->
+                                <tr>
+                                    <td>
+                                        AMA Maule ofrece cuatro
+                                        días de encuentros virtuales
+                                        para activar redes artísticas
+                                        en la región
+                                    </td>
+                                    <td class="categoria">
+                                        ACEPTADO
+                                    </td>
+                                    <td>
+                                        28 de Febrero 2021
+                                    </td>
+                                    <td>
+                                        <img src="../../resources/img/logotipos/read.png">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </vidv>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <div class="col-12 col-md-1">
+                    <img src="../../resources/img/logo.png" class="logo border">
+                </div>
+                <div class="col-12 col-md-11">
+                    <p class="foot">
+                        Avenida Italia 890, Providencia, Santiago. <br>
+                        +56 9 1234 5678 <br>
+                        info@caosnews.cl <br>
+                        © 2020 - Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

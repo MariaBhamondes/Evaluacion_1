@@ -1,0 +1,197 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    border-color: #F2F2F2;
+    margin-right: 20px;
+}
+
+.barra-superior{
+    padding: 20px;
+    width: auto;
+    background-color: #234A59;
+}
+
+.barra-superior li{
+    margin-right: 14px;
+}
+
+.active{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.inactivo{
+    color: #A69D9D;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.actualizacion{
+    background-color: #449DBD;
+    height: 30%;
+    width: auto;
+    color: white;
+    padding: 20px;
+    padding-left: 60px;
+    font-size: 15px;
+}
+
+.btn-cancelar{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    background-color: #E22167;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+}
+
+.btn-enviar{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    background-color: #449DBD;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+}
+
+
+.btn-cancelar:hover{
+    background-color: #8d1b45;
+    color: #FFFFFF;
+}
+
+.btn-enviar:hover{
+    background-color: #428eaa;
+    color:white;
+}
+
+.contenedor{
+    margin-top: 30px;
+    border: 1px;
+    border-style: solid;
+    border-color: #A3CEDE;
+    margin-left: 30px;
+    margin-right: 60px;
+    border-radius: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea{
+    border-color: #A3CEDE;
+}
+
+
+
+.footer{
+    margin-top: 5%;
+    background-color: #449DBD;
+    padding: 3%;
+
+}
+
+.foot{
+    margin-left: 50px;
+    color: white;
+    font-size: 15px;
+}
+
+label{
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.redes-sociales{
+    width: 30px;
+    margin-left: 9%;
+}
+
+.buscador{
+    border-radius: 5px;
+    border: none;
+    font-size: 10px;
+    height: 25px;
+    width: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.img-buscar{
+    margin-right: 14px;
+}
+
+.recuperar{
+    color: #686262;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cargo{
+    background-color: #4091AE; 
+    color: white; 
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+}
+
+.red{
+    background-color: #4091AE; 
+    color: white; 
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+    padding: 10%;
+    margin-bottom: 0%;
+}
+
+.redes-soc{
+    width: 30px;
+    margin-left: 2%;
+}
+
+.card{
+    margin-top: 20%;
+    border-color: #234A59; 
+}
+
+.card-body{
+    padding: 0%;
+    text-align: center;
+    background-color: #EEF3FA;
+}
+
+.card-text{
+    font-size: 15px;
+    color: #234A59;
+    font-style: italic;
+    padding-bottom: 40px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 2%;
+}
+
+.card-img{
+    width: 20px;
+    margin-left: 2%;
+}

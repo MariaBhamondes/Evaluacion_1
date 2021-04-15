@@ -1,0 +1,229 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    border-color: #F2F2F2;
+    margin-right: 50px;
+}
+
+.barra-superior{
+    padding: 20px;
+    width: auto;
+    background-color: #47281C;
+}
+
+.barra-superior li{
+    margin-right: 150px;
+}
+
+.active{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.inactivo{
+    color: #A69D9D;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.actualizacion{
+    background-color: #D8764C;
+    height: 30%;
+    width: auto;
+    color: white;
+    padding: 20px;
+    padding-left: 60px;
+    font-size: 15px;
+}
+
+
+.cargo{
+    background-color: #D8764C;
+    color: white; 
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+}
+
+.img-cargo{
+    margin-top: 10%;
+    width: 150px;
+    border-radius: 20px;
+    padding: 1px;
+    background-color: #47281C;
+}
+
+.card{
+    margin-top: 20%;
+    border-color: #47281C;
+}
+
+.card-body{
+    padding: 0%;
+    text-align: center;
+    background-color: #F5DFD5;
+}
+
+.card-text{
+    font-size: 15px;
+    color: #756864;
+    font-style: italic;
+    margin-top: 40px;
+    padding-bottom: 80px;
+}
+
+.btn-cerrar-sesion{
+    background-color: #E22167;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.btn-cancelar{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    background-color: #E22167;
+    border-radius: 20px;
+    color: white;
+    width: 150px;
+}
+
+
+.btn-guardar{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    background-color: #663623;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+}
+
+.btn-enviar{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    background-color: #D8764C;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+}
+
+.btn-cerrar-sesion:hover,
+.btn-cancelar:hover{
+    background-color: #8d1b45;
+    color: #FFFFFF;
+}
+
+.btn-guardar:hover{
+    color: white;
+    background-color: #663623;
+}
+
+.btn-enviar:hover{
+    background-color: #b3613e;
+    color: white;
+}
+
+.contenedor{
+    margin-top: 30px;
+    border: 1px;
+    border-style: solid;
+    border-color: #47281C;
+    margin-left: 30px;
+    margin-right: 60px;
+    border-radius: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea{
+    border-color: #47281C;
+}
+
+textarea{
+    border-radius: 5px;
+}
+
+.footer{
+    margin-top: 5%;
+    background-color: #449DBD;
+    padding: 3%;
+
+}
+
+.foot{
+    margin-left: 50px;
+    color: white;
+    font-size: 15px;
+}
+
+table{
+    margin: 2%;
+}
+
+table thead{
+    font-size: 20px;
+    background-color: #D8764C;
+    color: white;
+}
+
+table tbody{
+    font-size: 15px;
+    color: black;
+    background-color: #F6DFD5;
+    border-color:#D8764C;
+}
+
+table .categoria{
+    font-weight: bold;
+}
+
+.instruc{
+    width: 40px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 3%;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.titulo-table{
+    width: 30%;
+}
+
+label{
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+textarea{
+    width: 100%;
+}
+
+.hr-cultura{
+    border: 2px;
+    border-style: solid;
+    border-color:  #D8764C;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+

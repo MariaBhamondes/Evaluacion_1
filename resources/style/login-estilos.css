@@ -1,0 +1,182 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    border-color: #F2F2F2;
+    margin-right: 20px;
+}
+
+.barra-superior{
+    padding: 20px;
+    width: auto;
+    background-color: #234A59;
+}
+
+.barra-superior li{
+    margin-right: 14px;
+}
+
+.active{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.inactivo{
+    color: #A69D9D;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.actualizacion{
+    background-color: #449DBD;
+    height: 30%;
+    width: auto;
+    color: white;
+    padding: 20px;
+    padding-left: 60px;
+    font-size: 15px;
+}
+
+.btn-volver{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    background-color: #E22167;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+    width: 150px;
+}
+
+.btn-cancelar{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    background-color: #686262;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+}
+
+.btn-registrar{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    background-color: #449DBD;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+}
+
+.btn-registrarse{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    background-color: #234A59;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+    width: 150px;
+}
+
+.btn-volver:hover{
+    background-color: #8d1b45;
+    color: #FFFFFF;
+}
+
+.btn-cancelar:hover{
+    background-color: #363535;
+    color: white;
+}
+
+.btn-registrar:hover{
+    background-color: #428eaa;
+    color:white;
+}
+
+.contenedor{
+    margin-top: 30px;
+    border: 1px;
+    border-style: solid;
+    border-color: #234A59;
+    margin-left: 30px;
+    margin-right: 60px;
+    border-radius: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+    border-color: #234A59;
+}
+
+
+
+.footer{
+    margin-top: 5%;
+    background-color: #449DBD;
+    padding: 3%;
+
+}
+
+.foot{
+    margin-left: 50px;
+    color: white;
+    font-size: 15px;
+}
+
+label{
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+textarea{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.redes-sociales{
+    width: 30px;
+    margin-left: 9%;
+}
+
+.buscador{
+    border-radius: 5px;
+    border: none;
+    font-size: 10px;
+    height: 25px;
+    width: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.img-buscar{
+    margin-right: 14px;
+}
+
+.recuperar{
+    color: #686262;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.alerta{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    height: 20%;
+    text-align: center;
+    display:none;
+}

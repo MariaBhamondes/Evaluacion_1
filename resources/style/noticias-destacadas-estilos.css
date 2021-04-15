@@ -1,0 +1,183 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    border-color: #F2F2F2;
+    margin-right: 20px;
+}
+
+.barra-superior{
+    padding: 20px;
+    width: auto;
+    background-color: #234A59;
+}
+
+.barra-superior li{
+    margin-right: 14px;
+}
+
+.active{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.inactivo{
+    color: #A69D9D;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.actualizacion{
+    background-color: #449DBD;
+    height: 30%;
+    width: auto;
+    color: white;
+    padding: 20px;
+    padding-left: 60px;
+    font-size: 15px;
+}
+
+
+.contenedor{
+    margin-top: 30px;
+    border: 1px;
+    border-style: solid;
+    border-color: #A3CEDE;
+    margin-left: 30px;
+    margin-right: 60px;
+    border-radius: 20px;
+}
+
+.footer{
+    margin-top: 5%;
+    background-color: #449DBD;
+    padding: 3%;
+
+}
+
+.foot{
+    margin-left: 50px;
+    color: white;
+    font-size: 15px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.redes-sociales{
+    width: 30px;
+    margin-left: 9%;
+}
+
+.buscador{
+    border-radius: 5px;
+    border: none;
+    font-size: 10px;
+    height: 25px;
+    width: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.img-buscar{
+    margin-right: 14px;
+}
+
+.cargo{
+    background-color: #4091AE; 
+    color: white; 
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.card{
+    margin-top: 20%;
+    border-color: #234A59; 
+}
+
+.card-body{
+    padding: 0%;
+    text-align: center;
+    background-color: #EEF3FA;
+}
+
+.card-text{
+    font-size: 14px;
+    color: #A8ACC7;
+    font-style: italic;
+    text-align: left;
+    margin-top: 14px;
+}
+
+.link{
+    text-decoration: none;
+    font-style: italic;
+    text-align: left;
+}
+
+.card-img{
+    width: 60px;
+    margin-left: 5%;
+    border-radius: 100%;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+
+.img-slider{
+    width: 1000px !important;
+    height: 400px !important;
+}
+
+.text-slider{
+    background-color: #E4E6E7;
+    height: 130px !important;
+    width: 520px !important;
+    color: black;
+    font-style: italic;
+}
+
+.economia{
+    background-color: #38A06C;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.salud{
+    background-color: #36BFD4;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.deporte{
+    background-color: #D76464;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.img-eco{
+    width: 260px !important;
+    height: 100px !important;
+}
+
+.card-text-destacados{
+    margin-top: 5%;
+    color: black;
+    text-align: center;
+    font-style: italic;
+    background-color: white;
+    height: 100px;
+}
