@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Caos News-Noticias Destacadas</title>
+
+    <!--Importar bootstrap-->
+    <link rel="stylesheet" href="../../resources/bootstrap-5.0.0/css/bootstrap.min.css">
+    <script src="../../resources/bootstrap-5.0.0/js/bootstrap.min.js"></script>
+
+    <!--Importar hoja de estilos propia-->
+    <link rel="stylesheet" href="../../resources/style/noticias-destacadas-estilos.css">
+
+</head>
+<body>
+    <header>
+        <!-- Barra navegadora/ menu-->
+        <nav class="navbar navbar-expand-md navbar-dark barra-superior ">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon amburguesa"></span>
+                </button>
+                <!--Logo-->
+                <a class="navbar-brand" href="noti-destacadas.html">
+                    <img src="../../resources/img/logo.png" alt="Logo Caos News" class="logo">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <!--Herramientas disponibles lector-->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!--Destacados-->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="noti-destacadas.html">Destacados</a>
+                        </li>
+                        <!--Economía-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="economia/cate-economia.html">Economía</a>
+                        </li>
+                        <!--Política-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="politica/cate-politica.html">Política</a>
+                        </li>
+                        <!--Salud-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="salud/cate-salud.html">Salud</a>
+                        </li>
+                        <!--Deporte-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="deporte/cate-deporte.html">Deporte</a>
+                        </li>
+                        <!--Cultura-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="cultura/cate-cultura.html">Cultura</a>
+                        </li>
+                        <!--Mundo-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="mundo/cate-mundo.html">Mundo</a>
+                        </li>
+                        <!--Contacto-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="../contacto/form-contacto.html">Contacto</a>
+                        </li>
+                        <!--Buscar por palabra clave-->
+                        <form action="">
+                            <input type="text" name="buscador" id="buscador"  class="buscador" placeholder="Buscar noticia">
+                            <a href="">
+                                <img src="../../resources/img/logotipos/search.png" class="img-buscar">
+                            </a>
+                        </form>
+                        <!--Iniciar sesión-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="../login_iniciar_sesion.html">Iniciar Sesión</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Barra informacíon-->
+    <div>
+        <!--Datos actualización página-->
+        <div class="row actualizacion">
+            <div class="col-12 col-md-8">
+                Viernes, 16 de Abril de 2021 | Actualizado a las 12:00
+            </div>
+            <div class="col-12 col-md-4">
+                <img src="../../resources/img/logotipos/facebook.png" class="redes-sociales">
+                <img src="../../resources/img/logotipos/twitter.png" class="redes-sociales">
+                <img src="../../resources/img/logotipos/insta.png" class="redes-sociales">
+                <img src="../../resources/img/logotipos/gmail.png" class="redes-sociales">
+            </div>
+        </div>
+    </div>
+    <!--Cuerpo pagina-->
+    <div class="row">
+        <div class="col-12 col-md-1 mt-5"></div>
+        <!--Volver al menú principal-->
+        <div class="col-12 col-md-8 mt-5">
+            
+            <!--Slider-->
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="economia/noti-1-economia.html" class="text-decoration-none">
+                            <img src="../../resources/img/noticias/destacados-economia.png" class="d-block w-100 img-slider" alt="...">
+                            <div class="carousel-caption d-block text-slider">
+                                <h5>ECONOMÍA</h5>
+                                <p>
+                                    Presidenta de la Asociación de AFP: “El sistema de reparto de
+                                    los militares va a caer por su propio peso, no se puede mantener"
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="salud/noti-3-salud.html" class="text-decoration-none">
+                            <img src="../../resources/img/noticias/destacado-salud.png" class="d-block w-100 img-slider" alt="...">
+                            <div class="carousel-caption d-block text-slider">
+                                <h5>SALUD</h5>
+                                <p>
+                                    ¿Cómo hablar con alguien que tiene dudas sobre vacunarse contra el covid-19?
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="deporte/noti-2-deporte.html" class="text-decoration-none">
+                            <img src="../../resources/img/noticias/destacado-deporte.png" class="d-block w-100 img-slider" alt="...">
+                            <div class="carousel-caption d-block text-slider">
+                                <h5>DEPORTE</h5>
+                                <p>
+                                    La Calera y Audax asaltan la cima del torneo chileno y desplazan a Católica
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <br> <br>
+            <!--Noticias destacadas card-->
+            <div class="row">
+                <!--Economía-->
+                <div class="col-12 col-md-4">
+                    <div class="card border border-success card-eco">
+                        <a href="economia/noti-1-economia.html" class="text-decoration-none">
+                            <div class="card-body economia p-3">
+                                ECONOMÍA
+                            </div>
+                            <div>
+                                <img src="../../resources/img/noticias/destacados-economia.png" class="img-eco">
+                                <p class="card-text-destacados">
+                                    Presidenta de la Asociación de AFP:
+                                    “El sistema de reparto de los militares va a caer por
+                                    su propio peso, no se puede mantener”
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--Salud-->
+                <div class="col-12 col-md-4">
+                    <div class="card border border-info card-eco">
+                        <a href="salud/noti-3-salud.html" class="text-decoration-none">
+                            <div class="card-body salud p-3">
+                                SALUD
+                            </div>
+                            <div>
+                                <img src="../../resources/img/noticias/destacado-salud.png" class="img-eco">
+                                <p class="card-text-destacados">
+                                    ¿Cómo hablar con alguien que tiene dudas sobre
+                                    vacunarse contra el covid-19?
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--Deporte-->
+                <div class="col-12 col-md-4">
+                    <div class="card border border-danger card-eco">
+                        <a href="deporte/noti-2-deporte.html" class="text-decoration-none">
+                            <div class="card-body deporte p-3">
+                                DEPORTE
+                            </div>
+                            <div>
+                                <img src="../../resources/img/noticias/destacado-deporte.png" class="img-eco">
+                                <p class="card-text-destacados">
+                                    La Calera y Audax asaltan
+                                    la cima del torneo chileno
+                                    y desplazan a Católica
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!--Cards destacados-->
+            <div class="row">
+                <div class="col-1 col-md-1"></div>
+                <div class="col-10 col-md-10">
+            
+                </div>
+            </div>
+        </div>
+        <!--Sección autores-->
+        <div class="col-12 col-md-3 mt-5">
+            <div class="card ms-5 me-5 ">
+                <!--Título-->
+                <div class="card-body">
+                    <p class="cargo p-4">
+                        REPORTEROS
+                    </p>
+                    <!--Autor nombre y cargo-->
+                    <!--Cultura-->
+                    <div class="row">
+                        <div class="col-5 col-md-4">
+                            <a href="cultura/autor-cultura.html">
+                                <img src="../../resources/img/personas/REPORTERO-BLANCA_FERNANDEZ-CULTURA.jpg" class="card-img">
+                            </a>
+                        </div>
+                        <div class="col-7 col-md-8">
+                            <a href="cultura/autor-cultura.html" class="link">
+                                <div class="card-text">
+                                    Blanca Fernández <br>
+                                    Cultura
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!--Mundo-->
+                    <div class="row">
+                        <div class="col-5 col-md-4">
+                            <a href="mundo/autor-mundo.html">
+                                <img src="../../resources/img/personas/REPORTERO-CESAR_RODRIGUEZ-MUNDO.jpg" class="card-img">
+                            </a>
+                        </div>
+                        <div class="col-7 col-md-8">
+                            <a href="mundo/autor-mundo.html" class="link">
+                                <div class="card-text">
+                                    César Rodríguez <br>
+                                    Mundo
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!--Salud-->
+                    <div class="row">
+                        <div class="col-5 col-md-4">
+                            <a href="salud/autor-salud.html">
+                                <img src="../../resources/img/personas/REPORTERO-FRANCISCA_CONTRERAS-SALUD.jpg" class="card-img">
+                            </a>
+                        </div>
+                        <div class="col-7 col-md-8">
+                            <a href="salud/autor-salud.html" class="link">
+                                <div class="card-text">
+                                    Francisca Contreras <br>
+                                    Salud
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!--Política-->
+                    <div class="row">
+                        <div class="col-5 col-md-4">
+                            <a href="politica/autor-politica.html">
+                                <img src="../../resources/img/personas/REPORTERO-JAVIER_MARTÍNEZ-POLITICA.jpg" class="card-img">
+                            </a>
+                        </div>
+                        <div class="col-7 col-md-8">
+                            <a href="politica/autor-politica.html" class="link">
+                                <div class="card-text">
+                                    Javier Martínez <br>
+                                    Política
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!--Economía-->
+                    <div class="row">
+                        <div class="col-5 col-md-4">
+                            <a href="economia/autor-economia.html">
+                                <img src="../../resources/img/personas/REPORTERO-PABLO_GONZÁLEZ-ECONOMÍA.jpg" class="card-img">
+                            </a>
+                        </div>
+                        <div class="col-7 col-md-8">
+                            <a href="economia/autor-economia.html" class="link">
+                                <div class="card-text">
+                                    Pablo González <br>
+                                    Economía
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!--Deporte-->
+                    <div class="row">
+                        <div class="col-5 col-md-4">
+                            <a href="deporte/autor-deporte.html">
+                                <img src="../../resources/img/personas/REPORTERO-VERONICA_HERNÁNDEZ-DEPORTE.jpg" class="card-img">
+                            </a>
+                        </div>
+                        <div class="col-7 col-md-8">
+                            <a href="deporte/autor-deporte.html" class="link">
+                                <div class="card-text">
+                                    Verónica Hernández <br>
+                                    Deporte
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <div class="col-12 col-md-1">
+                    <img src="../../resources/img/logo.png" class="logo border">
+                </div>
+                <div class="col-12 col-md-11">
+                    <p class="foot">
+                        Avenida Italia 890, Providencia, Santiago. <br>
+                        +56 9 1234 5678 <br>
+                        info@caosnews.cl <br>
+                        © 2020 - Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

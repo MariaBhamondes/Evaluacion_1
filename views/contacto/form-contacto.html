@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Contacto</title>
+
+    <!--Importar bootstrap-->
+    <link rel="stylesheet" href="../../resources/bootstrap-5.0.0/css/bootstrap.min.css">
+    <script src="../../resources/bootstrap-5.0.0/js/bootstrap.min.js"></script>
+
+    <!--Importar hoja de estilos propia-->
+    <link rel="stylesheet" href="../../resources/style/contacto-estilos.css">
+
+</head>
+<body>
+    <header>
+        <!-- Barra navegadora/ menu-->
+        <nav class="navbar navbar-expand-md navbar-dark barra-superior ">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon amburguesa"></span>
+                </button>
+                <!--Logo-->
+                <a class="navbar-brand" href="../noticias/noti-destacadas.html">
+                    <img src="../../resources/img/logo.png" alt="Logo Caos News" class="logo">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <!--Herramientas disponibles lector-->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!--Destacados-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" aria-current="page" href="../noticias/noti-destacadas.html">Destacados</a>
+                        </li>
+                        <!--Economía-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="../noticias/economia/cate-economia.html">Economía</a>
+                        </li>
+                        <!--Política-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="../noticias/politica/cate-politica.html">Política</a>
+                        </li>
+                        <!--Salud-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="../noticias/salud/cate-salud.html">Salud</a>
+                        </li>
+                        <!--Deporte-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="../noticias/deporte/cate-deporte.html">Deporte</a>
+                        </li>
+                        <!--Cultura-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="../noticias/cultura/cate-cultura.html">Cultura</a>
+                        </li>
+                        <!--Mundo-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="../noticias/mundo/cate-mundo.html">Mundo</a>
+                        </li>
+                        <!--Contacto-->
+                        <li class="nav-item">
+                            <a class="nav-link active" href="form-contacto.html">Contacto</a>
+                        </li>
+                        <!--Buscar por palabra clave-->
+                        <form action="">
+                            <input type="text" name="buscador" id="buscador"  class="buscador" placeholder="Buscar noticia">
+                            <a href="">
+                                <img src="../../resources/img/logotipos/search.png" class="img-buscar">
+                            </a>
+                        </form>
+                        <!--Iniciar sesión-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="../login_iniciar_sesion.html">Iniciar Sesión</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Barra informacíon-->
+    <div>
+        <!--Datos actualización página-->
+        <div class="row actualizacion">
+            <div class="col-12 col-md-8">
+                Viernes, 16 de Abril de 2021 | Actualizado a las 12:00
+            </div>
+            <div class="col-12 col-md-4">
+                <img src="../../resources/img/logotipos/facebook.png" class="redes-sociales">
+                <img src="../../resources/img/logotipos/twitter.png" class="redes-sociales">
+                <img src="../../resources/img/logotipos/insta.png" class="redes-sociales">
+                <img src="../../resources/img/logotipos/gmail.png" class="redes-sociales">
+            </div>
+        </div>
+    </div>
+    <!--Cuerpo pagina-->
+    <div class="row">
+        <div class="col-12 col-md-1 mt-5"></div>
+        <!--Volver al menú principal-->
+        <div class="col-12 col-md-8 mt-5">
+            <!--Contenedor-->
+            <div class="contenedor">
+                <h1>FORMULARIO DE CONTACTO</h1>
+                <div class="row">
+                    <div class="col-1 col-md-1"></div>
+                    <div class="col-10 col-md-10">
+                        <form>
+                            <!--Nombre -->
+                            <div class="form-group">
+                                    <label for="nombre" class="form-label"> Nombre Completo </label>
+                                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre completo">
+                            </div>
+                            <br>
+                            <!--Email -->
+                            <div class="form-group">
+                                    <label for="correo" class="form-label"> Correo Electrónico </label>
+                                    <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico">
+                            </div>
+                            <br>
+                            <!--Asunto-->
+                            <div class="form-group">
+                                    <label for="asunto" class="form-label"> Asunto</label>
+                                    <input type="text" class="form-control" id="asunto" placeholder="Ingrese el asunto del mensaje">
+                            </div>
+                            <br>
+                            <!--Comentario-->
+                            <div class="form-group">
+                                <label for="comentario" class="form-label">Comentario </label>
+                                <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Escriba comentario a enviar"></textarea>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-1 col-md-2"> </div>
+                                <div class="col-5 col-md-3 d-grid gap-2">
+                                    <button type="reset" class="btn btn-cancelar">CANCELAR</button>
+                                </div>
+                                <div class="col-1 col-md-2"></div>
+                                <div class="col-5 col-md-3 d-grid gap-2">
+                                    <a href="" class="btn btn-enviar">
+                                        ENVIAR
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Información del usuario-->
+        <div class="col-12 col-md-3 mt-5">
+            <div class="card ms-5 me-5 ">
+                <!--Título-->
+                <div class="card-body">
+                    <p class="cargo p-4">
+                        OTROS ASUNTOS
+                    </p>
+                    <!--Puntos de comunicacion-->
+                    <p class="card-text">
+                        <a href="" class="text-decoration-none link">
+                            <img src="../../resources/img/logotipos/vineta.png" class="card-img">
+                            Mesa periodística
+                        </a>
+                    </p>
+                    <p class="card-text">
+                        <a href="" class="text-decoration-none link">
+                            <img src="../../resources/img/logotipos/vineta.png" class="card-img">
+                            Columnas de Opinión y cartas al Director
+                        </a>
+                    </p>
+                    <p class="card-text">
+                        <a href="" class="text-decoration-none link">
+                            <img src="../../resources/img/logotipos/vineta.png" class="card-img">
+                            Suscripción La Minuta del Poder
+                        </a>
+                    </p>
+                    <p class="card-text">
+                        <a href="" class="text-decoration-none link">
+                            <img src="../../resources/img/logotipos/vineta.png" class="card-img">
+                            Publicidad
+                        </a>
+                    </p>
+                    <!--Redes sociales-->
+                    <div class="red">
+                        <img src="../../resources/img/logotipos/facebook.png" class="redes-soc">
+                        <img src="../../resources/img/logotipos/twitter.png" class="redes-soc">
+                        <img src="../../resources/img/logotipos/insta.png" class="redes-soc">
+                        <img src="../../resources/img/logotipos/gmail.png" class="redes-soc">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <div class="col-12 col-md-1">
+                    <img src="../../resources/img/logo.png" class="logo border">
+                </div>
+                <div class="col-12 col-md-11">
+                    <p class="foot">
+                        Avenida Italia 890, Providencia, Santiago. <br>
+                        +56 9 1234 5678 <br>
+                        info@caosnews.cl <br>
+                        © 2020 - Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

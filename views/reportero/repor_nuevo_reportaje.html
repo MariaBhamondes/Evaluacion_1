@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reportero-Nuevo Reportajes</title>
+
+    <!--Importar bootstrap-->
+    <link rel="stylesheet" href="../../resources/bootstrap-5.0.0/css/bootstrap.min.css">
+    <script src="../../resources/bootstrap-5.0.0/js/bootstrap.min.js"></script>
+
+    <!--Importar hoja de estilos propia-->
+    <link rel="stylesheet" href="../../resources/style/repor-estilos.css">
+
+</head>
+<body>
+    <header>
+        <!-- Barra navegadora/ menu-->
+        <nav class="navbar navbar-expand-md navbar-dark barra-superior ">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon amburguesa"></span>
+                </button>
+                <!--Logo-->
+                <a class="navbar-brand" href="#">
+                    <img src="../../resources/img/logo.png" alt="Logo Caos News" class="logo">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <!--Herramientas disponibles reportero-->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!--Nuevo Reportajes-->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="repor_nuevo_reportaje.html">Nuevo Reportaje</a>
+                        </li>
+                        <!--Historial Reportajes-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="repor_historial_reportaje.html">Historial Reportajes</a>
+                        </li>
+                        <!--Cerrar Sesión-->
+                        <li class="nav-item">
+                            <a class="btn btn-cerrar-sesion" href="../noticias/noti-destacadas.html" tabindex="-1" aria-disabled="true">Cerrar Sesión</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Barra informacíon-->
+    <div>
+        <!--Datos actualización página-->
+        <p class="actualizacion">Viernes, 16 de Abril de 2021 | Actualizado a las 12:00 </p>
+    </div>
+    <!--Cuerpo pagina-->
+    <div class="row">
+        <!--Información del usuario-->
+        <div class="col-12 col-md-3 mt-5">
+            <div class="card ms-5 me-5 ">
+                <!--Cargo-->
+                <div class="card-body">
+                    <p class="cargo p-4">
+                        CULTURA
+                    </p>
+                    <!--Fotografía-->
+                    <img src="../../resources/img/personas/REPORTERO-BLANCA_FERNANDEZ-CULTURA.jpg" class="card-img-top img-cargo border" alt="...">
+                    <!--Nombre-->
+                    <p class="card-text">Blanca Fernández <br> <br>
+                        Total Publicaciones: 3</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-12 col-md-9 mt-5">
+            <!--Contenedor-->
+            <div class="contenedor table-responsive">
+                <div class="row">
+                    <div class="col-12 col-md-1"></div>
+                    <div class="col-12 col-md-10">
+                        <!--Título-->
+                        <h1>NUEVO REPORTAJE</h1> 
+                        <hr class="hr-cultura">
+                        <!--Formulario-->
+                        <form class="form-group">
+                            <!--Titulo-->
+                            <div>
+                                <label for="titulo" class="form-label">Título reportaje</label>
+                                <input type="text" class="form-control" id="titulo" name="titulo" placeholder="Ingrese el título del reportaje">
+                            </div>
+                            <!--Contenido-->
+                            <div>
+                                <label for="contenido" class="form-label">Contenido</label> <br>
+                                <textarea name="contenido" id="contenido" cols="30" rows="10" placeholder="Ingrese el contenido de la noticia"></textarea>
+                            </div>
+                            <!--Cargar imágenes-->
+                            <div>
+                                <label for="imagenes" class="form-label">Imágenes</label>
+                                <input name="archivo" type="file" />
+                            </div>
+                            <!--Botones-->
+                            <div class="row mt-5">
+                                <div class="col-12 col-md-4">
+                                    <button type="reset" class="btn btn-cancelar">CANCELAR</button>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <button type="submit" id="enviar-reportaje" class="btn btn-guardar">GUARDAR</button>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <button type="submit" id="guardar-reportaje" class="btn btn-enviar">ENVIAR</button>
+                                </div>
+                            </div>
+                          </form>
+                        
+                    </div>
+                </vidv>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <div class="col-12 col-md-1">
+                    <img src="../../resources/img/logo.png" class="logo border">
+                </div>
+                <div class="col-12 col-md-11">
+                    <p class="foot">
+                        Avenida Italia 890, Providencia, Santiago. <br>
+                        +56 9 1234 5678 <br>
+                        info@caosnews.cl <br>
+                        © 2020 - Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

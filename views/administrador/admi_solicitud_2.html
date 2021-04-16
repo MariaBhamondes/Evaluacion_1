@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Administrador-Solicitudes</title>
+
+    <!--Importar bootstrap-->
+    <link rel="stylesheet" href="../../resources/bootstrap-5.0.0/css/bootstrap.min.css">
+    <script src="../../resources/bootstrap-5.0.0/js/bootstrap.min.js"></script>
+
+    <!--Importar hoja de estilos propia-->
+    <link rel="stylesheet" href="../../resources/style/admi-estilos.css">
+
+</head>
+<body>
+    <header>
+        <!-- Barra navegadora/ menu-->
+        <nav class="navbar navbar-expand-md navbar-dark barra-superior ">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon amburguesa"></span>
+                </button>
+                <!--Logo-->
+                <a class="navbar-brand" href="admi_solicitud_1.html">
+                    <img src="../../resources/img/logo.png" alt="Logo Caos News" class="logo">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <!--Herramientas disponibles administrador-->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!--Solicitudes-->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="admi_solicitud_1.html">Solicitudes</a>
+                        </li>
+                        <!--Aprobados-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="admi_aceptados.html">Aprobados</a>
+                        </li>
+                        <!--Rechazados-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="admi_rechazados.html" tabindex="-1" aria-disabled="true">Rechazados</a>
+                        </li>
+                        <!--Nuevo colaborador-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo me-5" href="admi_nuevo_colaborador.html" tabindex="-1" aria-disabled="true">Nuevo Colaborador</a>
+                        </li>
+                        <!--Cerrar Sesión-->
+                        <li class="nav-item">
+                            <a class="btn btn-cerrar-sesion" href="../noticias/noti-destacadas.html" tabindex="-1" aria-disabled="true">Cerrar Sesión</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Barra informacíon-->
+    <div>
+        <!--Datos actualización página-->
+        <p class="actualizacion">Viernes, 16 de Abril de 2021 | Actualizado a las 12:00 </p>
+    </div>
+    <!--Cuerpo pagina-->
+    <div class="row">
+        <!--Información del usuario-->
+        <div class="col-12 col-md-3 mt-5">
+            <div class="card ms-5 me-5 ">
+                <!--Cargo-->
+                <div class="card-body">
+                    <p class="cargo p-4">
+                        ADMINISTRADOR
+                    </p>
+                    <!--Fotografía-->
+                    <img src="../../resources/img/personas/administrador.jpg" class="card-img-top img-cargo border" alt="...">
+                    <!--Nombre-->
+                    <p class="card-text">Fernando Rojas</p>
+                </div>
+            </div>
+        </div>
+        <!--Volver al menú principal-->
+        <div class="col-12 col-md-9 mt-5">
+            <div class="row">
+                <div class="col-7 col-md-9"></div>
+                <div class="col-5 col-md-2">
+                    <a href="admi_solicitud_1.html" class="btn btn-inicio"> Inicio </a>
+                </div>
+            </div><!--Modals-->
+            <!-- Modal/Alerta ACEPTAR-->
+            <div class="modal fade" id="alertAceptar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">DEFINIR IMPORTANCIA DEL REPORTAJE</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <label for="importancia">Seleccione la alternativa correspondiente:</label>
+                            <div class="form-check">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    <b>SÍ</b> es Destacado
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    <b>NO</b> es Destacado
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-cancelar-modal" data-bs-dismiss="modal">Cancelar</button>
+                            <a href="admi_solicitud_2.html" class="btn btn-aceptar-modal" >Aceptar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal/Alerta CANCELAR-->
+            <div class="modal fade" id="alertCancelar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">DEFINIR ASPECTOS A MEJORAR DEL REPORTAJE</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <label for="comentario">Escriba de forma detallada los aspectos que se deben modificar:</label>
+                            <textarea name="comentario" id="comentario" class="comentario-rechazo" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-cancelar-modal" data-bs-dismiss="modal">Cancelar</button>
+                            <a href="admi_solicitud_2.html" class="btn btn-aceptar-modal" >Aceptar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Contenedor-->
+            <div class="contenedor table-responsive">
+                <div class="row">
+                    <div class="col-12 col-md-1"></div>
+                    <div class="col-12 col-md-10">
+                        <!--Noticia 2-->
+                        <h1 class="titulo-noticia">Un experto te explica por qué es importante vacunar a los
+                            niños contra el covid-19
+                        </h1>
+                        <hr class="division-salud">
+                        <p class="fst-italic"> Salud | Francisca Contreras | 15/04/2021 </p> 
+                        <div class="div-salud">
+                            <img src="../../resources/img/noticias/ninos-colegio-mascarillas.jpg" class="img-noticia">
+                            <p class="info-noticia">
+                                Hasta ahora los niños no han sido los más afectados por el covid-19, sin embargo, las nuevas variantes
+                                parecen estar afectando a poblaciones más jóvenes. La Dra. Marisa Azaret habló con el Dr. Otto Ramos,
+                                infectólogo en el Nicklaus Children´s Hospital, sobre la importancia de vacunar a los más pequeños una
+                                vez llegado el momento
+                            </p>
+                        </div>
+                        <!--Botones-->
+                        <div class="row">
+                            <div class="col-12 col-md-3">
+                                <a href="admi_solicitud_1.html" class="btn btn-anterior" >ANTERIOR</a>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <a href="" class="btn btn-rechazar" data-bs-toggle="modal" data-bs-target="#alertCancelar">RECHAZAR</a>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <a href="" class="btn btn-aceptar" data-bs-toggle="modal" data-bs-target="#alertAceptar">ACEPTAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </vidv>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <div class="col-12 col-md-1">
+                    <img src="../../resources/img/logo.png" class="logo border">
+                </div>
+                <div class="col-12 col-md-11">
+                    <p class="foot">
+                        Avenida Italia 890, Providencia, Santiago. <br>
+                        +56 9 1234 5678 <br>
+                        info@caosnews.cl <br>
+                        © 2020 - Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

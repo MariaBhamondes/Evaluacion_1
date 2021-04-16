@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Iniciar Sesión - Ingresar </title>
+
+    <!--Importar bootstrap-->
+    <link rel="stylesheet" href="../resources/bootstrap-5.0.0/css/bootstrap.min.css">
+    <script src="../resources/bootstrap-5.0.0/js/bootstrap.min.js"></script>
+
+    <!--Importar hoja de estilos propia-->
+    <link rel="stylesheet" href="../resources/style/login-estilos.css">
+
+    <script src="../resources/jQuery/jquery-3.5.1.min.js"></script>
+
+    <!--Importar hoja de validacion-->
+    <script src="../resources/js/validacion-login.js"></script>
+    
+
+</head>
+<body>
+    <header>
+        <!-- Barra navegadora/ menu-->
+        <nav class="navbar navbar-expand-md navbar-dark barra-superior ">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon amburguesa"></span>
+                </button>
+                <!--Logo-->
+                <a class="navbar-brand" href="noticias/noti-destacadas.html">
+                    <img src="../resources/img/logo.png" alt="Logo Caos News" class="logo">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <!--Herramientas disponibles lector-->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!--Destacados-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" aria-current="page" href="noticias/noti-destacadas.html">Destacados</a>
+                        </li>
+                        <!--Economía-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="noticias/economia/cate-economia.html">Economía</a>
+                        </li>
+                        <!--Política-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="noticias/politica/cate-politica.html">Política</a>
+                        </li>
+                        <!--Salud-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="noticias/salud/cate-salud.html">Salud</a>
+                        </li>
+                        <!--Deporte-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="noticias/deporte/cate-deporte.html">Deporte</a>
+                        </li>
+                        <!--Cultura-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="noticias/cultura/cate-cultura.html">Cultura</a>
+                        </li>
+                        <!--Mundo-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="noticias/mundo/cate-mundo.html">Mundo</a>
+                        </li>
+                        <!--Contacto-->
+                        <li class="nav-item">
+                            <a class="nav-link inactivo" href="contacto/form-contacto.html">Contacto</a>
+                        </li>
+                        <!--Buscar por palabra clave-->
+                        <form action="">
+                            <input type="text" name="buscador" id="buscador"  class="buscador" placeholder="Buscar noticia">
+                            <a href="">
+                                <img src="../../resources/img/logotipos/search.png" class="img-buscar">
+                            </a>
+                        </form>
+                        <!--Iniciar sesión-->
+                        <li class="nav-item">
+                            <a class="nav-link active" href="login_iniciar_sesion.html">Iniciar Sesión</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Barra informacíon-->
+    <div>
+        <!--Datos actualización página-->
+        <div class="row actualizacion">
+            <div class="col-12 col-md-8">
+                Viernes, 16 de Abril de 2021 | Actualizado a las 12:00
+            </div>
+            <div class="col-12 col-md-4">
+                <img src="../resources/img/logotipos/facebook.png" class="redes-sociales">
+                <img src="../resources/img/logotipos/twitter.png" class="redes-sociales">
+                <img src="../resources/img/logotipos/insta.png" class="redes-sociales">
+                <img src="../resources/img/logotipos/gmail.png" class="redes-sociales">
+            </div>
+        </div>
+    </div>
+    <!--Cuerpo pagina-->
+    <div class="row">
+        <div class="col-12 col-md-2 mt-5"></div>
+        <div class="col-12 col-md-9 mt-5">
+            
+            <!--Volver al menú principal-->
+            <div class="row">
+                <div class="col-5 col-md-2">
+                    <a href="login/login_crear_cuenta.html" class="btn btn-registrarse"> REGISTRARSE </a>
+                </div>
+                <div class="col-7 col-md-7"></div>
+                <div class="col-5 col-md-2">
+                    <a href="noticias/noti-destacadas.html" class="btn btn-volver"> VOLVER </a>
+                </div>
+            </div>
+
+            <!--Contenedor-->
+            <div class="contenedor">
+                <h1>INICIAR SESIÓN</h1>
+                <div class="row">
+                    <div class="col-1 col-md-1"></div>
+                    <div class="col-10 col-md-10">
+                        <!--Formulario-->
+                        <form id="formulario">
+                            <div class="row">
+                                <div class="col-12 col-md-2"></div>
+                                <div class="col-12 col-md-9">
+                                    <!--Email -->
+                                    <div class="form-group">
+                                        <label for="correo" class="form-label">
+                                            <img src="../../resources/img/logotipos/gmail_24px.png">
+                                            Email
+                                        </label>
+                                        <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico">    
+                                    </div>
+                                    <!--Contrasñea-->
+                                    <div class="form-group">
+                                        <label for="contraseña" class="form-label">
+                                            <img src="../../resources/img/logotipos/password_32px.png">
+                                            Contraseña
+                                        </label>
+                                        <input type="password" class="form-control" id="contraseña" placeholder="Ingrese una contraseña">
+                                    </div>
+                                    <!--Recuperar contraseña-->
+                                    <a href="" class="nav-link recuperar">Recuperar contraseña</a>
+                                </div>
+                            </div>
+                            <!--Botones-->
+                            <div class="row">
+                                <div class="col-1 col-md-2"> </div>
+                                <div class="col-5 col-md-3 d-grid gap-2">
+                                    <button type="reset" class="btn btn-cancelar"> CANCELAR</button>
+                                </div>
+                                <div class="col-1 col-md-2"></div>
+                                <div class="col-5 col-md-3 d-grid gap-2">
+                                    <button type="button" class="btn btn-registrar" id="validar-datos">INGRESAR</button>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="alert alert-danger alerta" id="mensaje-error" role="alert">
+                            ¡Datos ingresados son incorrectos! <br>
+                            Vuelva a intentarlo.
+                        </div> 
+                    </div>
+                </vidv>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <div class="col-12 col-md-1">
+                    <img src="../resources/img/logo.png" class="logo border">
+                </div>
+                <div class="col-12 col-md-11">
+                    <p class="foot">
+                        Avenida Italia 890, Providencia, Santiago. <br>
+                        +56 9 1234 5678 <br>
+                        info@caosnews.cl <br>
+                        © 2020 - Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
